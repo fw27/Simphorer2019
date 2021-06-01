@@ -1,2 +1,2 @@
 # Simphorer-2019
-This application has been created in 2019 to complete a supervised internship in an undergraduate course. Functions might not work nowadays, since Google's free Firebase database closes itself after some unused period. The source code can be found in the about description.
+This application has been created in 2019 to complete a supervised internship in an undergraduate course. Functions might not work nowadays, since Google's free Firebase database closes itself after some unused period.
