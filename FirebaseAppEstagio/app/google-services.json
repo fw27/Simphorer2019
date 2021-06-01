@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1009530171088",
+    "firebase_url": "https://fir-apptest-2bc0e.firebaseio.com",
+    "project_id": "fir-apptest-2bc0e",
+    "storage_bucket": "fir-apptest-2bc0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009530171088:android:6caa8859c19d4ab23b38d5",
+        "android_client_info": {
+          "package_name": "faculdadedelta.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009530171088-jo5ge62mqju0h8l9argjsp080hudoauv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC74GjAcaIHpJbpdtc2o_95viQqMkCT6IQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009530171088-jo5ge62mqju0h8l9argjsp080hudoauv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

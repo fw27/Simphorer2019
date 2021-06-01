@@ -1,0 +1,87 @@
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include android:id="@+id/toolbar" layout="@layout/custom_toolbar_layout"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/book_title_field"
+                android:hint="Insira um título"
+                android:padding="15dp"
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/book_author_field"
+                android:hint="Insira uma descrição para a Imagem"
+                android:padding="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/book_author"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:text="Insira uma nota"/>
+
+            <RatingBar
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/book_author"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:numStars="5"
+                android:rating="3.5"
+                android:stepSize=".5" />
+
+
+
+            <ImageView
+                android:id="@+id/book_cover"
+                android:src="@drawable/ic_photo"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_width="190dp"
+                android:layout_height="190dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/book_cover"
+                android:layout_gravity="center"
+                android:layout_marginBottom="1dp"
+                android:text="Aperte para escolher imagem"/>
+            <Button
+                android:id="@+id/add"
+                android:text="Adicionar Imagem"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_rounded"
+                android:layout_below="@+id/network_error_title"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
